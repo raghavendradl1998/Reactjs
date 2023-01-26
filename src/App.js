@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Navbar/>
     <Routes>
-    {/* <Route exact path="/"  element ={<Emarketingpage/>}/> */}
+    <Route exact path="/"  element ={<Emarketingpage/>}/>
       <Route exact path="/ec"  element ={<Emailmarketing/>}/>
       <Route exact path="/ad"  element ={<About/>}/>
       <Route exact path="/ap"  element ={<Affiliate/>}/>

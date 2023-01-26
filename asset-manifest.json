@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reactjs/static/css/main.07e914ee.css",
-    "main.js": "/Reactjs/static/js/main.c252ee6d.js",
+    "main.js": "/Reactjs/static/js/main.da7a83d8.js",
     "static/media/images.jpg": "/Reactjs/static/media/images.3798bfe85be2ec7fab3b.jpg",
     "static/media/emailcamp.jpg": "/Reactjs/static/media/emailcamp.da6b80d72b34a481a857.jpg",
     "static/media/emailcamphand.jpg": "/Reactjs/static/media/emailcamphand.d354c213019a99bbeb5b.jpg",
@@ -9,10 +9,10 @@
     "index.html": "/Reactjs/index.html",
     "static/media/icons8-monzo.svg": "/Reactjs/static/media/icons8-monzo.416207498b77be27126fe137ea96ece0.svg",
     "main.07e914ee.css.map": "/Reactjs/static/css/main.07e914ee.css.map",
-    "main.c252ee6d.js.map": "/Reactjs/static/js/main.c252ee6d.js.map"
+    "main.da7a83d8.js.map": "/Reactjs/static/js/main.da7a83d8.js.map"
   },
   "entrypoints": [
     "static/css/main.07e914ee.css",
-    "static/js/main.c252ee6d.js"
+    "static/js/main.da7a83d8.js"
   ]
 }

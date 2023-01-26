@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.bodytext{
+    justify-content:center;
+    font-family: monospace;   
+    
+}
+
+
+.left-main {
+    flex: 30%;
+    background-color: #ffffff;
+}
+.icon-position {
+    display: inline-block;
+    height: auto;
+   
+    width: 100%;
+    border:0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+
+
+.left-hand-plan {
+    flex: 30%;
+    background-color: #ffffff;
+}
+.two-position {
+    padding-top:80px;
+    display: inline-block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border:0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+.left-hand-plan .btn {
+  position: absolute;
+  top: 195%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 25px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+  border: none;
+  background-color: orange;
+  padding: 12px 48px 12px 24px;
+  border-radius: 4px;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
+.centered-content{
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;   
+    font-family: inspirebold,arial,helvetica,sans-serif;
+    font-size: 50px;
+    margin: 0 0 0;
+    word-wrap: normal;
+    
+}
+  
+
+.firstbody{
+   position: relative;
+    top:80px;
+    width: 85rem;
+    margin: auto;
+    font-size: 32px;
+    font-family: inspirebold;
+    text-align: center;
+
+    font-weight: 400;
+    font-style: normal;
+    word-wrap: break-word; 
+   
+}
+
+
+.firstbody >.firstp{
+    font: 20px Helvetica, Sans-Serif;
+    color: black;
+    overflow: hidden;
+    padding: 25px;
+    text-align: justify;
+    margin-left:100px;
+
+}
+
+.firstbody >.secondp{
+    font: 20px Helvetica, Sans-Serif;
+    color: black;
+    overflow: hidden;
+    padding: 15px;
+    text-align: justify;
+    margin-left:100px;
+
+}
+
+.firstbody >.thirdp{    font: 20px Helvetica, Sans-Serif;
+    color: black;
+    overflow: hidden;
+    padding: 15px;
+    text-align: justify;
+    margin-left:100px; }
+
+.firstbody >.fourthp{    font: 20px Helvetica, Sans-Serif;
+    color: black;
+    overflow: hidden;
+    padding: 15px;
+    text-align: justify;
+    margin-left:100px; }
+
+.firstbody >.fifthp{    font: 20px Helvetica, Sans-Serif;
+    color: black;
+    overflow: hidden;
+    padding: 15px;
+    text-align: justify;
+    margin-left:100px;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;   
+    font-family: monospace;
+    font-size: 50px;
+    margin: 0 0 0;
+    word-wrap: normal;  
+    
+}
+
+
+.boxcolor{
+    position: relative;
+    top:711px;   
+    background-color: orange;
+    height:250px;
+
+}
+
+.boxfirstheader{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;   
+    font-family: inspirebold,arial,helvetica,sans-serif;
+    font-size: 35x;
+    margin: 0 0 0;
+    word-wrap: normal; 
+    font-size: 18px;
+}
+.inputfield{
+    position: relative;
+    bottom:580px;
+    margin-left:490px;
+}
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 21px;
+    cursor: pointer;
+}
+.button3 {
+    padding: 12px 30px;
+}
+
+
+input[type=text], select {    
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.secondborderform{
+    position: relative;
+    margin-bottom: 500px;   
+    background-color: black;
+    height:550px;
+    top:-523px;
+    display:grid;
+ 
+    
+}
+.userdata{
+    display: grid;
+    margin-left: 520px;
+}
+
+.secondborderform input[type=text], select {
+
+    width: 40%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+.quicklinks{
+    position: relative;
+    bottom:450px;
+    list-style-type: none;
+
+  
+
+}
+
+.footerbgcol{
+    
+    position: relative;
+    bottom:525px;   
+    background-color: black; 
+    
+}
+ 
+.quicklinks .heading{
+    color: orange;
+    position: relative;
+    top:530px;
+    margin-left: 140px;
+   
+}
+.firstli ul{
+    list-style: None;
+    padding-left:40px;
+    top:520px;
+    position: relative;
+    margin-left: 60px;
+}
+
+.secondli ul {
+    list-style: None;
+    padding-left:40px;
+    top:520px;
+    position: relative;
+    margin-left: 60px;
+}
+
+.secondli{
+    position: relative;
+    bottom:328px;
+    margin-left: 280px;    
+   
+    
+}
+
+.footertext{
+    position: relative;
+    bottom:350px;
+    margin-left: 1100px;
+    font-size: 20px;   
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: inspirebold,arial,helvetica,sans-serif; 
+    word-wrap: normal; 
+}
+
+.footerinput{
+    
+    position: relative;
+    top:0px;
+    
+}
+
+
+.callBackFooter textarea {
+    width: 100%;
+    height: 113px;
+
+    
+}
+
+textarea {
+    position: relative;
+    margin-right: 10px;
+    float: right;   
+    width: 406px;
+    background: #fff;
+    border: 0;
+    height: 110px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 20px;
+    font-family: dm_sansregular,arial,helvetica,sans-serif;
+    color: #2a2a2a;
+    font-size: 16px;
+
+}
+
+
+.footerpara{
+    position: relative;
+    top:-120px;
+    right: -60px;
+    margin-bottom: 20px;
+    margin-left: 265px;
+    font-size: 14px;
+    margin-right: 10px;
+
+
+
+    
+
+}
+
+.footertext p{
+    position: relative;
+    margin-right: 200px;
+    float: right;
+
+
+}
+#cars{
+    position: relative;
+    float: right;
+    width: 100px;
+    margin-left: 230px;
+    border-radius: 20px;
+    font-family: dm_sansregular,arial,helvetica,sans-serif;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+.footerbutton {
+    position: relative;
+    left:310px;
+    bottom:110px;
+    background-color: orange;
+    color: black;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px blue;
+}
+.callus{
+    position: relative;
+    left:-590px;
+    font-size: 12px;
+    color: orange;
+}
+
+.leftcallus{
+    position: relative;
+    left:190px;
+    bottom:34px;
+    font-size: 20px;
+    color:white
+}
+
+.connectingiconsname{
+    position: relative;
+    left:-590px;
+    font-size: 12px;
+    color: orange;
+}
+.connectingiconssymbol img{
+    padding-left: 1em;
+    position: relative;
+    bottom:30px;
+    right:420px;
+}
+
+@media only screen and (max-width: 480px) {
+    .icon-position  {
+        height: 90%;
+        width: 80%;
+    }
+    .centered  {
+        width: 20px;
+    }
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+    }
+    
+}
+@media screen and (min-width: 601px) {
+    .centered {
+      font-size: 60px;
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .centered {
+        font-size:5vw;
+        text-align: center;
+      }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .centered {
+        font-size:5vw;
+        text-align: center;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .centered {
+        font-size:5vw;
+        text-align: center;
+      }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .centered {
+        font-size:5vw;
+        text-align: center;
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .centered {
+        font-size:50px
+      }
+  }
+
+/*For the image */
+
+/*For the image */
+
+
+/*For the image */
+  @media only screen and (max-width: 600px) {
+    .icon-position {
+        width: 100%;
+        height: auto;
+      }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .icon-position {
+        width: 100%;
+  height: auto;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .icon-position {
+        width: 100%;
+  height: auto;
+      }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .icon-position {
+        width: 100%;
+  height: auto;
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .icon-position {
+        width: 100%;
+  height: auto;
+      }
+  }
+
+
+  /*For the image */
+
+
+  /*For the image */
+  /*For the image ENd*/
+
+@media screen and (max-width: 600px) 
+  {
+    .left-main > .centered {
+        font-size: 9px;
+        left:1rem;
+        bottom: 270px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        
+        
+       
+
+    }
+
+    .firstbody > .bodytext{
+        float: none;
+        font-size: 14px;
+        width: 90%;        
+        margin-left: 10px;
+        position: relative;
+        bottom:80px;
+        
+    }
+
+    .firstbody{
+        margin-right: 40px;
+        float: none;
+        width: 100%;
+        font-size: 24px;
+      
+        
+    }
+
+    .firstbody>.firstp{
+        margin-right: 40px;     
+        font-size: 24px;  
+    }
+
+    .firstbody>.secondp{
+        margin-right: 40px;     
+        font-size: 24px;  
+    }
+
+    .firstbody>.fourthp{
+        margin-right: 40px;     
+        font-size: 24px;  
+    }
+
+    .firstbody>.thirdp{
+        margin-right: 40px;     
+        font-size: 24px;  
+    }
+
+    .firstbody>.fifthp{
+        margin-right: 40px;     
+        font-size: 24px;  
+    }
+}
+
+  /* Medium devices (landscape tablets, 768px and up) */
+
+
+
+@media screen and (max-width: 992px) 
+  {
+    .left-main > .centered {
+        font-size: 9px;
+        left:1rem;
+        bottom: 270px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: flex;     
+
+    }
+
+    .firstbody > .bodytext{
+        float: none;
+        font-size: 14px;
+        width: 90%;        
+        margin-left: 10px;
+        position: relative;
+        bottom:80px;
+        
+        
+        
+    }
+
+    .firstbody{
+        margin-right: 40px;
+        float: none;
+        width: 100%;
+        font-size: 24px;
+        
+      
+        
+    }
+
+    .firstbody>.firstp{   
+
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: -12px;
+        position: relative;
+        bottom:80px;
+    }
+
+    .firstbody>.secondp{
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: -12px;
+        position: relative;
+        bottom:80px;
+    }
+
+    .firstbody>.fourthp{
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: -12px;
+        position: relative;
+        bottom:80px; 
+    }
+
+    .firstbody>.thirdp{
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: -12px;
+        position: relative;
+        bottom:80px; 
+    }
+
+    .firstbody>.fifthp{
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: -12px;
+        position: relative;
+        bottom:80px;  
+    }
+
+    .left-hand-plan { 
+        position: relative;
+        bottom: 40px;
+
+    }
+
+    .centered-content{
+        float: none;
+        font-size: 20px;
+        width: 90%;        
+        margin-left: 20px;
+        position: relative;
+        bottom:-15px; 
+    }
+
+    .left-hand-plan .btn {
+        float: none;       
+        font-size: 20px;               
+        margin-left:-20px;
+        position: relative;
+        bottom:55px; 
+    }
+    .boxcolor{
+        position: relative;
+        float: none;
+        top:-109px;      
+    }
+    .button3{
+       position: relative;
+        float: none;
+        top:700px; 
+        right:400px;
+    }
+
+    .footerbgcol{
+        float: none;       
+        font-size: 20px;               
+        margin-left:0px;
+        position: relative;
+        top:130px;
+    }
+    .quicklinks .heading{
+        position: relative;
+        right:20px;
+    
+    }
+
+    .firstli ul{ 
+        position: relative;
+        right:140px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+
+    .secondli ul {
+        position: relative;
+        top:605px;
+        right:210px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+
+
+    /* input{
+        position: relative;
+        top:200px;
+        right:680px;
+    } */
+
+    textarea{
+        position: relative;
+        top:200px;
+        right:680px;
+    }
+    .secondborderform input[type=text], select{
+        position: relative;
+        top:310px;
+        right:1000px;
+    }
+
+    .footerbutton{
+        position: relative;
+        top:90px;
+        left:-820px;
+
+    }
+    .callusnumber{
+        position: relative;
+        top:110px;
+        text-overflow: ellipsis;
+        right:510px;
+        white-space: nowrap;
+
+    }
+
+    .leftcallus{
+        position: relative;
+        top:70px;
+        text-overflow: ellipsis;
+        left:-310px;
+        white-space: nowrap;
+    }    
+
+}

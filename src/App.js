@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
+import { BrowserRouter as Router, Routes, Route,Switch } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Emarketingpage from './components/Navbar/Emarketingpage';
+import About from './components/Navbar/About'
+import Emailmarketing from './components/Navbar/Emailmarketing';
+import Affiliate from './components/Navbar/affiliate';
+import Socialmedia from './components/Navbar/Socialmedia';
+
+  
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+    <Router>
+      <Navbar/>
+    <Routes>
+    {/* <Route exact path="/"  element ={<Emarketingpage/>}/> */}
+      <Route exact path="/ec"  element ={<Emailmarketing/>}/>
+      <Route exact path="/ad"  element ={<About/>}/>
+      <Route exact path="/ap"  element ={<Affiliate/>}/>
+      <Route exact path="/sc"  element ={<Socialmedia/>}/>
+    
+    </Routes>
+    </Router>
+    </>
+    
   );
 }
-
+  
 export default App;

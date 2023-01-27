@@ -39,6 +39,10 @@ const Contact = () => {
         <div class="input-box">
           <input type="text" placeholder="Enter your Email"/>
         </div>
+        <div class="input-box">
+        <input type="text"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder='PhoneNumber'/>
+        </div>
+        
         
         <div class="input-box message-box">
           

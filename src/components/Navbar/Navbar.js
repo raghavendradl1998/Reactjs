@@ -37,6 +37,10 @@ const Navbar = () => {
             <li>
               <NavLink to="/sc">Social Media</NavLink>
             </li>
+
+            <li>
+              <NavLink to="/contact">Contact Us</NavLink>
+            </li>
           </ul>
         </div>
       </div>

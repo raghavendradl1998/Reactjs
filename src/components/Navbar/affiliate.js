@@ -2,11 +2,6 @@ import React from 'react';
 import emarketingimage from '../../assets/icons/emailcamp.jpg';
 import emarketing from '../../assets/icons/emailcamphand.jpg';
 
-import firsticon from '../../assets/icons/main_120_gmb2.png';
-import second from '../../assets/icons/second.png';
-import third from '../../assets/icons/third.png';
-import fourth from '../../assets/icons/fourth.png';
-import fifty from '../../assets/icons/fith.png';
 import './emarketing.css'
 
 const affiliate = () => {
@@ -20,7 +15,7 @@ const affiliate = () => {
     
     
           <div className="firstbody">
-              <h2 className="bodytext">Use your website traffic to profit from promoted partner offers</h2>
+              <h2 className="bodytext">Affiliate Programme</h2>
               <p className="firstp">Our new affiliate programme works on the tried-and-tested principle of business referrals.  We place carefully chosen ads and links to other relevant businesses on your website. </p>
     
               <p className='secondp'>For all our email campaigns we work closely with our graphic designers to create a message template that matches your business branding. We then add your logo and any other key product or service images. When the template is done, we add text and images to your message through a bespoke content management system, and it’s ready to send.</p>
@@ -105,7 +100,7 @@ const affiliate = () => {
           </div>            */}
     
     
-         <div className='footerbgcol'>
+         {/* <div className='footerbgcol'>
           <div className= "bottommostSection">
             <div>
               <div className='middleblock'>
@@ -273,7 +268,7 @@ const affiliate = () => {
               </div>
               
     
-            </div>
+            </div> */}
           </div>     
           
         </>

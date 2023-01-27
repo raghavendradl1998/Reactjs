@@ -2,11 +2,6 @@ import React from 'react';
 import emarketingimage from '../../assets/icons/emailcamp.jpg';
 import emarketing from '../../assets/icons/emailcamphand.jpg';
 
-import firsticon from '../../assets/icons/main_120_gmb2.png';
-import second from '../../assets/icons/second.png';
-import third from '../../assets/icons/third.png';
-import fourth from '../../assets/icons/fourth.png';
-import fifty from '../../assets/icons/fith.png';
 import './emarketing.css'
 const Socialmedia = () => {
     return (
@@ -19,7 +14,7 @@ const Socialmedia = () => {
     
     
           <div className="firstbody">
-              <h2 className="bodytext">Let Inspire help get more from Facebook, Twitter & LinkedIn</h2>
+              <h2 className="bodytext">Social Media</h2>
               <p className="firstp">Most of us think of Facebook as a place to organise our social lives and connect with far-away friends. But more and more canny businesses are opting to use social networks to promote their businesses. Facebook alone has over 1.59 Billion users monthly, and at the end of December 2015, more than 50 million of them were businesses. It has more daily traffic than Google, and is where more and more of us – and that means potential customers too – are spending our time.</p>
     
               <p className='secondp'>We can help you establish a presence on Facebook with a dedicated page for your business; we can work with you to make the most of their tools for business users. We can also help you establish networks and gain referrals to build a word-of-mouth buzz around your business.</p>
@@ -104,7 +99,7 @@ const Socialmedia = () => {
           </div>            */}
     
     
-         <div className='footerbgcol'>
+         {/* <div className='footerbgcol'>
           <div className= "bottommostSection">
             <div>
               <div className='middleblock'>
@@ -272,7 +267,7 @@ const Socialmedia = () => {
               </div>
               
     
-            </div>
+            </div> */}
           </div>     
           
         </>

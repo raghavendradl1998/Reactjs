@@ -2,11 +2,6 @@ import React from 'react';
 import emarketingimage from '../../assets/icons/emailcamp.jpg';
 import emarketing from '../../assets/icons/emailcamphand.jpg';
 
-import firsticon from '../../assets/icons/main_120_gmb2.png';
-import second from '../../assets/icons/second.png';
-import third from '../../assets/icons/third.png';
-import fourth from '../../assets/icons/fourth.png';
-import fifty from '../../assets/icons/fith.png';
 import './emarketing.css'
 
 const Emailmarketing = () => {
@@ -20,7 +15,7 @@ const Emailmarketing = () => {
 
 
       <div className="firstbody">
-          <h2 className="bodytext">Profit from your email subscribers through email campaign management</h2>
+          <h2 className="bodytext">Email Campaign</h2>
           <p className="firstp">Done correctly email campaigns are an effective way of targeting your audience and driving traffic to your website.</p>
 
           <p className='secondp'>For all our email campaigns we work closely with our graphic designers to create a message template that matches your business branding. We then add your logo and any other key product or service images. When the template is done, we add text and images to your message through a bespoke content management system, and it’s ready to send.</p>
@@ -104,7 +99,7 @@ const Emailmarketing = () => {
        
       </div>            */}
 
-
+{/* 
      <div className='footerbgcol'>
       <div className= "bottommostSection">
         <div>
@@ -273,7 +268,7 @@ const Emailmarketing = () => {
           </div>
           
 
-        </div>
+        </div> */}
       </div>     
       
     </>

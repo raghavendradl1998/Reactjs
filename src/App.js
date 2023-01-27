@@ -9,6 +9,9 @@ import Emailmarketing from './components/Navbar/Emailmarketing';
 import Affiliate from './components/Navbar/affiliate';
 import Socialmedia from './components/Navbar/Socialmedia';
 
+
+import Contact from './components/Contact/Contact'
+
   
 function App() {
   return (
@@ -22,6 +25,10 @@ function App() {
       <Route exact path="/ad"  element ={<About/>}/>
       <Route exact path="/ap"  element ={<Affiliate/>}/>
       <Route exact path="/sc"  element ={<Socialmedia/>}/>
+
+
+      <Route exact path="/contact"  element ={<Contact/>}/>
+  
     
     </Routes>
     </Router>
